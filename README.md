@@ -89,6 +89,7 @@ Create and activate a virtual environment with [venv](https://docs.python.org/3/
 # venv
 python -m venv .my-env
 source .my-env/bin/activate
+
 # uv
 uv venv .my-env
 source .my-env/bin/activate
@@ -115,6 +116,9 @@ pip install '.[torch]'
 
 # uv
 uv pip install '.[torch]'
+
+# Set up a development environment
+pip install -e '.[dev]'
 ```
 
 ## Quickstart
